@@ -1,0 +1,656 @@
+/* B2 Yammer Dark Theme by Blake Buthod, United States
+/* Version: 2019.09.17.01
+*/
+html
+{
+    scrollbar-color: #7e7e7e #3e3e3e;
+}
+body,
+.yj-thread-reply-list-item,
+.yj-global-reply-publisher-with-avatar,
+.yj-global-reply-publisher-with-placeholder .publisher-placeholder,
+.yj-tapf-container,
+.yj-thread-list-item--replies-container .yj-thread-starter-likes,
+.yj-thread-list-item--shares,
+.yj-thread-list-item--shares-topics-container,
+.yj-thread-list-item--show-replies,
+.yj-thread-list-item--topics .yj-topics-inline,
+.yj-nav-menu--group-item-link:hover,
+.yj-btn-alt,
+.yj-notifications-menu-contents,
+.yj-notification-menu-heading,
+.yj-notification-item-thread-link,
+.yj-hovercard-main-details,
+.yj-balloon-content,
+.yj-hovercard .yj-hovercard-subtitle,
+.yj-inbox-list-item.yj-read-item,
+.yj-inbox-list-item--message-header,
+.yj-inbox-list-item--message-text,
+.yj-inbox-list-item--message-sender,
+.yj-inbox-list-item--reply-container,
+.yj-notification-attributes,
+.yj-activity-ticker-item:hover,
+.yj-menu li,
+ul .yj-menu li,
+.yj-menu li.hover,
+.yj-menu li.yj-acc-keyboard-selected,
+.yj-menu li:hover,
+.yj-media-card--content,
+.yj-media-card--footer,
+.yj-patterned-header .join-links-container-move-members .yj-follow-button,
+.yj-patterned-header .join-links-container-move-members .yj-follow-button,
+.yj-patterned-header .join-links-container-move-members .yj-unfollow-button,
+.yj-patterned-header .join-links-container-move-members .yj-unfollow-button,
+.yj-acc-placeholder,
+.yj-simple-lightbox--content.yj-compose-lightbox .switcher-option,
+.yj-recipient-list-item,
+.yj-menu *,
+.yj-thread-replies-link--container,
+.yj-thread-list-item .yj-thread-share-excerpt,
+.yj-discover-groups-card--cover-overlay,
+.yj-bubbles,
+.yj-tag-list-lg .yj-tag,
+.app-store .app-list,
+.uploaded_files-controller .yj-selector-right-col,
+#main-column .yj-tabular-row:nth-child(2n+1),
+#main-column .yj-tabular-header-first,
+#main-column .yj-tabular-header,
+.yj-global-split-publisher .yj-global-publisher-switcher .switcher-option
+{
+    color: #d6d6d6 !important;
+    background: #222222 !important;
+}
+.main-content-container,
+.yj-click-menu,
+.yj-nav-menu--primary-actions-ellipsis-link.yj-open,
+.yj-nav-menu--primary-actions-ellipsis-link.yj-open::after,
+.uploaded_files-controller .yj-sidebar-nav
+{
+    background-color: #221F19 !important;
+}
+#O365_NavHeader,
+.o365cs-base .o365sx-waffle,
+.o365cs-base .o365sx-button,
+.yj-thread-share-excerpt-container,
+.o365cs-base .o365sx-neutral-lighterAlt-background,
+.o365cs-base .o365sx-neutral-lighterAlt-hover-background:hover,
+.yj-global-tag-selector .selector-arrow
+{
+    background-color: black
+}
+.yj-patterned-header .join-links-container-move-members .yj-follow-button,
+.yj-patterned-header .join-links-container-move-members .yj-follow-button span
+{
+    background: inherit !important;
+}
+.yj-patterned-header .join-links-container-move-members .yj-follow-button,
+.yj-patterned-header .join-links-container-move-members .yj-follow-button,
+.yj-patterned-header .join-links-container-move-members .yj-unfollow-button,
+.yj-patterned-header .join-links-container-move-members .yj-unfollow-button,
+.yj-global-thread-starter-publisher .publisher-placeholder,
+.yj-global-publisher .publisher-body,
+.yj-publisher-toolbar,
+.yj-global-publisher .publisher-recipients,
+.yj-global-tag-input.yj-global-recipient-input label input::placeholder,
+textarea.yj-normal-text-input::placeholder,
+input.yj-normal-text-input::placeholder,
+.yj-autogrow-textarea,
+input.yj-add-topic,
+.app-store .all-apps tr.app-list-item-even,
+#main-column .yj-tabular-row,
+.o365cs-base .o365sx-neutral-foreground-background,
+.o365cs-base .o365sx-neutral-foreground-hover-background:hover
+{
+    background: #444444 !important;
+}
+.yj-patterned-header .join-links-container-move-members .yj-follow-button:focus,
+.yj-patterned-header .join-links-container-move-members .yj-follow-button:hover,
+.yj-patterned-header .join-links-container-move-members .yj-unfollow-button:focus,
+.yj-patterned-header .join-links-container-move-members .yj-unfollow-button:hover,
+.app-store .apps-tab-item table tr.hover,
+.yj-sidebar-item.yj-sidebar-item-selected
+{
+    background: #8c8c8c !important;
+}
+.yj-nav-menu--primary-actions-home .yj-nav-menu--primary-actions-link:hover,
+.yj-nav-menu--primary-actions-inbox .yj-nav-menu--primary-actions-link:hover,
+.yj-nav-menu--primary-actions-notifications .yj-nav-menu--primary-actions-link:hover,
+.yj-nav-menu--primary-actions-drop-down-item:focus,
+.yj-nav-menu--primary-actions-drop-down-item:hover,
+.yj-nav-menu--primary-actions-drop-link:focus,
+.yj-nav-menu--primary-actions-drop-link:hover
+{
+    background: #464646 !important;
+}
+.yj-advanced-search--header,
+.yj-apps-store--header,
+.yj-conversation--actions-header,
+.yj-conversation-participants--header,
+.yj-discover-groups-home--header,
+.yj-featured-group-members--header,
+.yj-group-description--header,
+.yj-group-info--header,
+.yj-group-options--header,
+.yj-group-pending-members--header,
+.yj-group-settings--header-text,
+.yj-group-unread-header--unread-header,
+.yj-invite-coworkers--header-title,
+.yj-kbd-help--category,
+.yj-notes-collaborators--header,
+.yj-o365-sidebar--header,
+.yj-pinned-content--header,
+.yj-recent-activity-ticker--header,
+.yj-related-groups--header,
+.yj-related-networks--header,
+.yj-sidebar-group-actions--header,
+.yj-sidebar-group-search--header,
+.yj-suggested-list--header,
+.yj-thread-attachments--header,
+.yj-usage-policy--header,
+.yj-user-getting-started--header,
+.yj-user-profile--about-header,
+.yj-user-profile--admin-header,
+.yj-user-profile--followed-by-header,
+.yj-user-profile--following-header,
+.yj-user-profile--former-member-header,
+.yj-user-profile--groups-header,
+.yj-user-profile--home-network-header,
+.yj-user-profile--networks-header,
+.yj-user-profile--org-chart-header,
+.yj-user-profile--topics-header,
+.yk-sidebar-header,
+.yj-activity-ticker-item,
+.yj-suggested-list .position,
+.yj-metabar,
+.yj-metabar .yj-message-others,
+#yj-simple-lightbox--title .yj-editor--button,
+.yj-publisher-toolbar-button--icon,
+.yj-nav-menu--primary-actions-link.unstyle-button-as-link.yj-nav-menu--primary-actions-link.yj-nav-menu--primary-actions-ellipsis-link.yj-simple-click-menu-trigger,
+.yj-global-sidebar--item--link:hover .yj-global-sidebar--item--text-wrapper,
+.qa-global-sidebar--nav-list-item-text,
+.yj-global-sidebar--item--text,
+.yj-close-link .yamicon,
+.notranslate.public-DraftEditor-content,
+input,
+textarea,
+input::placeholder,
+textarea::placeholder,
+.yj-filecollab-tabs.yj-group-tabs li a,
+._1sMs4HtnnjNiwUlomBf_ia,
+.o365cs-base ._2htz6qg7TMSJAMv0Idk9Yr,
+.o365cs-base ._1IzcGpL_5fs7e1JW8eaTHE,
+.o365cs-base ._34w_FZIo5f3Lk_Ey2bjscY,
+.file-picker .yj-filter-tab-link,
+.file-picker--list-item,
+.file-picker--filename,
+.file-picker--modified,
+.yj-global-split-publisher .yj-global-publisher-switcher .switcher-option .option-label,
+.yj-discover-groups-card--external,
+.yj-discover-groups-card--members,
+.yj-discover-groups-card--featured-user,
+.y-message-bar,
+.yj-user-getting-started--pm-label,
+.yj-advanced-search--block .yj-tag-name,
+.yj-advanced-search--block .yj-tag-remove.yamicon,
+.yk-nav-menu--text,
+.yj-btn,
+.y-block--inner
+{
+    color: #d6d6d6 !important;
+}
+.yj-message-attributes,
+.yj-message-attributes--client,
+.yj-message-attributes--client:hover,
+.yj-message-attributes--dash,
+.yj-message-attributes--edited,
+.yj-message-attributes--time,
+.yj-message-likes,
+.yamicon-ellipsis:before,
+.yj-pinned-content--empty-text,
+.yj-discover-groups-card--name,
+.yj-group-options--settings-option-label label:hover,
+.page-header .subhead,
+.yj-advanced-search--label,
+.yj-featured-group-members .yj-group-header-facepile-container .members-count,
+.app-store .app-list-item .other-users span,
+.page-header .subheading,
+#column-two .grid .admin-status,
+#column-two .grid .job-title,
+#main-column .yj-type-filter-link,
+.o365cs-base .o365sx-neutral-dark-font,
+.o365cs-base .o365sx-neutral-dark-hover-font:hover
+{
+    color: #a3a3a5 !important;
+}
+.page-content,
+.wrap-content,
+.o365cs-base ._2AtD_VwfZOiOS3g2brTA0F,
+.o365cs-base o365cs-base.vbjagmFzdHZUopVAoNd-p._27tc0wx1_u6BvRxeI4znTk,
+.yj-related-groups--field,
+.yj-group-ta-input,
+input,
+.yj-pinned-item.yj-focuswithin,
+.yj-pinned-item:hover,
+.yj-message-list-notice
+{
+    background-color: #232323 !important;
+}
+#column-one.main-nav,
+.yj-nav-menu .yj-nav-menu--fixed-content,
+.yj-global-sidebar--fixed-content
+{
+    background-color: #636363 !important;
+}
+a,
+a:active,
+a:hover,
+a:visited,
+.yj-global-publisher-switcher .switcher-option.yj-selected,
+.yj-global-sidebar--action-list-item-clickable,
+.yj-notifications-menu-see-all.yj-btn.yj-btn-alt,
+._3vMrdRZR8bo5hSiJS8JJ8C,
+._1xraTuNu4rccYbArAhC2G2,
+.yj-simple-lightbox--header-bar,
+.file-picker--breadcrumbs-current,
+.file-picker--list-title,
+.page-header .yj-feed-name,
+.page-header h2,
+.yj-discover-groups-header--header,
+.yj-discover-groups-header--subheader,
+.yj-discover-groups-header--search-icon,
+.y-textField .ms-Label,
+.yj-create-group-form--label,
+.groups-creation .label,
+.groups-creation legend,
+.yj-tabs .yj-filter-tab-link,
+.yj-thread-search-list-item--action .yamicon-goto,
+.yj-quick-link-nostyle,
+.app-store h3,
+.app-store h4,
+.uploaded_files-controller .yj-selector-right-col h2,
+.uploaded_files-controller .yj-sidebar-header
+{
+    color: #739acc !important;
+}
+.yj-nav-menu--group-item-link,
+.yj-nav-menu--group-item-link:active,
+.yj-nav-menu--group-item-link:hover,
+.yj-nav-menu--group-item-link:visited,
+.yj-nav-menu--group-item-link .yk-badge,
+.yamicon-rd_inbox:before,
+.yamicon-rd_notifications:before,
+.yamicon-rd_gear:before,
+.yamicon-rd_add:before,
+.yamicon-rd_home:before,
+.yamicon-settings:before,
+.yamicon-rd_more_replies:before,
+.yamicon-plus:before,
+.yj-global-publisher-switcher .switcher-option,
+.yj-message-list-item--action-menu .yj-message-action,
+.yj-message-list-item--action-menu .yj-message-action-icon,
+.yj-group-info h1,
+.yj-group-info li,
+.yj-group-info ol,
+.yj-group-info p,
+.yj-group-info ul,
+.o365cs-base ._25rvrJdB6X_ovt33L8OiwD,
+.uploaded_files-controller .yj-sidebar-item
+{
+    color: #e6e6e6 !important;
+}
+.yj-nav-menu--group-header--main-action .yj-nav-menu--group-header--link
+{
+    color: #a3b6d0 !important;
+}
+.yj-nav-menu--discover-more-groups .yj-nav-menu--group-item-text,
+.yamicon-rd_groups:before
+{
+    color: #6f92c3 !important;
+}
+.yj-nav-menu--show-all-groups-link-muted
+{
+    color: #739acc !important;
+    border-bottom: 1px dashed #739acc !important;
+}
+.yj-message-list-item--body-byline-user-link,
+.yj-message-list-item--body-byline-user-link .yj-hovercard-link
+{
+    color: #709cd0 !important;
+}
+.yj-scroller-viewport.yj-nav-menu--scroller-viewport.yj-scroller-at-top.yj-scroller-can-scroll,
+.yj-global-sidebar--fixed-content,
+.yj-toolbar--rich-text-item .yj-editor--button:hover,
+.file-picker--list-item:focus,
+.file-picker--list-item:hover,
+.file-picker--fileitem:hover,
+.yj-category-button:hover,
+.qa-pending-group-button:hover
+{
+    background-color: #12100D !important;
+}
+.yj-group-header-patterned-scrolling--wrapper.yj-clearfix,
+.yj-simple-lightbox--content,
+.community-lightbox,
+.yj-subscription-list,
+#yamjs1414,
+#yamjs419,
+.publisher-body yj-publisher-lightbox--body-group
+{
+    background-color: #555555 !important;
+}
+.yk-col-sm-offset-5.yk-col-md-offset-6.yk-col-lg-offset-7.page-content.yk-container.pushed-down,
+#threadsInGroup,
+.yj-group-header-patterned-scrolling--wrapper-mask,
+#column-two
+{
+    background-color: #444 !important;
+}
+@media (min-width: 1420px)
+{
+    .main-content
+    {
+        background: #444;
+    }
+}
+#column-two,
+.zindex-t1.column-container.yk-row
+{
+    background-color: #444 !important;
+}
+.yj-global-sidebar--nav-list-item--selected.yj-global-sidebar--nav-list-item-navigation-link,
+.yj-global-sidebar--nav-list-item--selected.yj-global-sidebar--nav-list-item-navigation-link:active,
+.yj-global-sidebar--nav-list-item--selected.yj-global-sidebar--nav-list-item-navigation-link:focus,
+.yj-global-sidebar--nav-list-item--selected.yj-global-sidebar--nav-list-item-navigation-link:hover,
+.yj-selected .yj-global-sidebar--item--link,
+.yj-selected .yj-global-sidebar--item--link:hover,
+.yj-card--thumbnail-background.yj-card--thumbnail-image-wrapper.yj-hc-preserve-bg,
+.file-picker--list-item.selected,
+.file-picker--fileitem.selected,
+.yj-category-button:hover,
+.qa-pending-group-button:hover
+{
+    background: #333 !important;
+}
+.yj-global-sidebar--nav-list-item-navigation-link:hover,
+.yj-global-sidebar--item--link:hover,
+.yj-global-sidebar--action-list-item-clickable:hover
+{
+    background: #565656 !important;
+}
+.yj-global-split-publisher .yj-global-publisher-switcher .switcher-option:first-child,
+.yj-global-tag-selector .selector-arrow
+{
+    border-left: 1px solid #7c7c7c;
+}
+.yj-simple-lightbox--content.yj-compose-lightbox li.yj-selected.switcher-option,
+.yj-global-split-publisher .yj-global-publisher-switcher .switcher-option.yj-selected
+{
+    background: #3e3e3e !important;
+}
+.yj-publisher-toolbar,
+.yj-nav-menu--primary-actions-notifications-link.yj-open,
+.yj-nav-menu--primary-actions-notifications-link:hover.yj-open,
+.yj-header-navigation--jewel-badge,
+.yj-nav-menu--primary-actions-item .yk-badge
+{
+    background-color: #8f8f8f !important;
+}
+.yj-simple-lightbox--content.yj-compose-lightbox .yj-recipient-list-item
+{
+    background-color: #434343;
+    border: 1px solid #656565;
+}
+.yj-simple-lightbox--content.yj-compose-lightbox .yj-global-split-publisher .publisher-recipients,
+.yj-simple-lightbox--content.yj-compose-lightbox .yj-publisher-toolbar .yj-publisher-lightbox--private,
+.style-group .yj-global-publisher .publisher-body,
+.yj-global-split-publisher .publisher-body,
+.yj-nav-menu--primary-actions.yk-clearfix li,
+.yj-global-split-publisher .yj-publisher-lightbox--group,
+.yj-global-split-publisher .yj-publisher-lightbox--private,
+.yj-thread-share-excerpt.yj-clearfix
+{
+    border: 1px solid #444 !important;
+}
+.yj-thread-reply-list-item,
+.yj-thread-list-item--replies-container .yj-thread-starter-likes,
+.yj-thread-list-item--shares,
+.yj-thread-list-item--shares-topics-container,
+.yj-thread-list-item--show-replies,
+.yj-thread-list-item--topics .yj-topics-inline,
+.yj-thread-replies-link--container,
+.yj-nav-menu--nav-separate-bottom,
+.yj-typing-indicator
+{
+    border-bottom: 1px solid #444 !important;
+}
+.yj-nav-menu--nav-separate-top,
+.app-store .colleagues-are-using li.app-list-item,
+.app-store .featured-apps li.app-list-item
+{
+    border-top: 1px solid #444 !important;
+}
+.yj-global-split-publisher .yj-publisher-lightbox--group,
+.yj-global-split-publisher .yj-publisher-lightbox--private
+{
+    border-top: 0;
+}
+.yj-toolbar--rich-text-item .yj-editor--button:hover,
+.yj-close-link:hover
+{
+    background-color: #434343;
+}
+.yj-global-publisher .publisher-recipients
+{
+    border-top: 1px solid #7c7c7c;
+}
+.app-store .apps-tab-item table th,
+.yj-action-bar-tabs .yj-tabs,
+.grid td,
+.grid th,
+.yj-typing-indicator
+{
+    border-bottom: 1px solid #7c7c7c;
+}
+textarea,
+.yj-card,
+.yj-global-thread-starter-publisher .publisher-placeholder,
+.yj-related-groups--field,
+.yj-btn-alt,
+.yj-recipient-list-item,
+.o365cs-base ._1xoJtGb41qZ16zYvd1Ol5Y:hover[href],
+.o365cs-base ._3MDYbWlBfFFIDM7MdbX96h,
+.yj-thread-share-excerpt,
+.yj-group-ta-input,
+.yj-global-split-publisher .yj-global-publisher-switcher .switcher-option,
+.app-store .app-list,
+#main-column .yj-tabular-row:nth-child(2n+1),
+#main-column .yj-tabular-header,
+.yj-selector-right-col,
+.uploaded_files-controller .yj-sidebar-nav,
+.yj-global-group-publisher .publisher-group,
+.yj-message-list-notice,
+.publisher-body
+{
+    border: 1px solid #7c7c7c !important;
+}
+.app-store .apps-tab-item table td,
+.app-store .apps-tab-item table th
+{
+    border-left: 1px solid #7c7c7c !important;
+}
+#main-column .yj-tabular-data
+{
+    border-right: 1px solid #7c7c7c !important;
+}
+.yj-inbox-list-item,
+.yj-follow-list .yj-follow-item
+{
+    border-bottom: 1px solid #7c7c7c !important;
+}
+.ms-Button.y-button
+{
+    background-color: #222;
+    border: 1px solid #666;
+}
+.yj-conversation-participants--header,
+.page-header,
+.yj-group-unread-header--unread-header,
+.yj-featured-group-members--header,
+#group-details span div h2,
+#group-details div h2:not(.yj-pinned-content--header),
+.yj-header-extra-link
+{
+    border-bottom: 1px solid #666;
+}
+.unstyle-button-as-link,
+.yj-members-link:hover
+{
+    color: #4587ed;
+}
+.yj-members-link:hover .yj-group-info--header-link:hover
+{
+    color: #487ecf;
+}
+.yj-poll-answer--selected::before
+{
+    color: #618dcd !important;
+}
+.page-header .header-content
+{
+    color: #a7bede;
+}
+.yj-related-groups-item.yj-focuswithin,
+.yj-related-groups-item:hover
+{
+    background-color: #0C0A07 !important;
+}
+.yj-group-options--settings-option-label,
+.yj-group-options--settings-option-link
+{
+    color: #9bb0cd;
+}
+.yj-global-publisher-switcher .option-arrow::before,
+.yj-global-publisher-switcher .option-arrow::after
+{
+    border-color: #7c7c7c transparent;
+}
+.yj-toolbar--rich-text-item .yj-editor--button,
+.yj-toolbar--rich-text-item .yj-editor--button:hover
+{
+    color: #8ba5cf;
+}
+.yj-question-badge path
+{
+    fill: #558f49;
+}
+.yj-global-poll-question--poll-icon span svg path
+{
+    fill: #649ea9;
+}
+.poll-input span label input
+{
+    caret-color: white;
+}
+.poll-input span label input,
+.yj-global-tag-input.yj-global-recipient-input label input
+{
+    background: transparent !important;
+}
+._3L8KdOMpGa_yUiFE8Csd1r
+{
+    background-color: #000;
+    border: 1px solid #5e5e5e;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .1);
+}
+.o365cs-base ._2htz6qg7TMSJAMv0Idk9Yr:active,
+.o365cs-base ._2htz6qg7TMSJAMv0Idk9Yr:focus,
+.o365cs-base ._2htz6qg7TMSJAMv0Idk9Yr:hover,
+.o365cs-base ._34w_FZIo5f3Lk_Ey2bjscY:hover,
+.o365cs-base .o365sx-button:hover,
+.o365cs-base .o365sx-button:focus
+{
+    background-color: #545454 !important;
+}
+.o365cs-base ._1IzcGpL_5fs7e1JW8eaTHE:focus,
+.o365cs-base ._1IzcGpL_5fs7e1JW8eaTHE:hover,
+.o365cs-base ._3MDYbWlBfFFIDM7MdbX96h ._1IzcGpL_5fs7e1JW8eaTHE
+{
+    background: #7c7c7c;
+}
+.o365cs-base ._1xoJtGb41qZ16zYvd1Ol5Y:hover[href],
+.o365cs-base ._3MDYbWlBfFFIDM7MdbX96h,
+.o365cs-base .o365sx-neutral-lightAlt-border,
+.o365cs-base .o365sx-neutral-lightAlt-hover-border:hover
+{
+    border-color: #7c7c7c !important;
+}
+.o365cs-base ._0PXkl0sHQSPHk5mpV9Kq
+{
+    border: 1px solid #c4c4c4;
+    background-color: #a9a9a9;
+    color: black;
+}
+.yj-nav-menu--search-input.yk-form-control
+{
+    background-color: #464646 !important;
+}
+#yamjs2037
+{
+    border-bottom: 1px solid #dde0e6 !important;
+}
+.y-message-bar
+{
+    background-color: #202020;
+}
+.yj-normal-text-input
+{
+    border: 0 !important;
+}
+.yj-user-getting-started
+{
+    background-color: #7b6c4e;
+}
+.yj-user-getting-started--pm-progress
+{
+    background: #89ab6e;
+}
+.yj-user-getting-started--pm-shell
+{
+    background-color: #262626;
+}
+.yj-thread-search-list-item em
+{
+    background-color: #d3b57c;
+    color: #2a2a2a;
+}
+.app-store .apps-tab-item table tr.hover a
+{
+    color: #1f3e6e !important;
+}
+.yj-notice
+{
+    border-color: #1f5115;
+    color: #cacaca;
+    background-color: #788c6b;
+}
+.yj-global-file-drag-drop-area
+{
+    background: rgba(10, 10, 10, .8);
+}
+.yj-global-file-drag-drop-area .yj-global-file-drag-drop-area--target
+{
+    border: 5px dashed #404040;
+    color: #386cbb;
+}
+.yj-typing-indicator
+{
+    background-color: #222222;
+}
+.publisher-relative .publisher-main
+{
+    border: none !important;
+}
+symbol#yk-svg-checkmark path:nth-child(3)
+{
+    fill: #222222 !important;
+}
