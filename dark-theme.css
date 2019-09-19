@@ -1,5 +1,5 @@
 /* B2 Yammer Dark Theme by Blake Buthod, United States
-/* Version: 2019.09.17.01
+/* Version: 2019.09.19.01
 */
 html
 {
@@ -74,7 +74,11 @@ ul .yj-menu li,
 .yj-thread-share-excerpt-container,
 .o365cs-base .o365sx-neutral-lighterAlt-background,
 .o365cs-base .o365sx-neutral-lighterAlt-hover-background:hover,
-.yj-global-tag-selector .selector-arrow
+.yj-global-tag-selector .selector-arrow,
+.o365cs-base .o365sx-appName, 
+.o365cs-base .o365sx-appName:hover, 
+.o365cs-base .o365sx-appName:visited, 
+.o365cs-base .o365sx-appName:focus
 {
     background-color: black
 }
