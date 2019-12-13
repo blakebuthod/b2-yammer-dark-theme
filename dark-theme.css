@@ -1,5 +1,5 @@
 /* B2 Yammer Dark Theme by Blake Buthod, United States
-/* Version: 2019.09.19.01
+/* Version: 2019.11.20.01
 */
 html
 {
@@ -64,7 +64,8 @@ ul .yj-menu li,
 .yj-click-menu,
 .yj-nav-menu--primary-actions-ellipsis-link.yj-open,
 .yj-nav-menu--primary-actions-ellipsis-link.yj-open::after,
-.uploaded_files-controller .yj-sidebar-nav
+.uploaded_files-controller .yj-sidebar-nav,
+.yj-editor--mention
 {
     background-color: #221F19 !important;
 }
@@ -75,12 +76,20 @@ ul .yj-menu li,
 .o365cs-base .o365sx-neutral-lighterAlt-background,
 .o365cs-base .o365sx-neutral-lighterAlt-hover-background:hover,
 .yj-global-tag-selector .selector-arrow,
-.o365cs-base .o365sx-appName, 
-.o365cs-base .o365sx-appName:hover, 
-.o365cs-base .o365sx-appName:visited, 
-.o365cs-base .o365sx-appName:focus
+.o365cs-base .o365sx-appName,
+.o365cs-base .o365sx-appName:hover,
+.o365cs-base .o365sx-appName:visited,
+.o365cs-base .o365sx-appName:focus,
+.yj-global-attach-list-item,
+.yj-threadshare-warning,
+.yj-thread-share-excerpt
 {
-    background-color: black
+    background-color: black !important;
+}
+.yj-thread-share-summary .yj-scroller-viewport
+{
+    border: 1px solid black !important;
+    background-color: black !important;
 }
 .yj-patterned-header .join-links-container-move-members .yj-follow-button,
 .yj-patterned-header .join-links-container-move-members .yj-follow-button span
@@ -198,7 +207,8 @@ textarea::placeholder,
 .yj-advanced-search--block .yj-tag-remove.yamicon,
 .yk-nav-menu--text,
 .yj-btn,
-.y-block--inner
+.y-block--inner,
+.css-43
 {
     color: #d6d6d6 !important;
 }
@@ -235,9 +245,14 @@ textarea::placeholder,
 input,
 .yj-pinned-item.yj-focuswithin,
 .yj-pinned-item:hover,
-.yj-message-list-notice
+.yj-message-list-notice,
+.yj-global-publisher .yj-global-topic-menu.yj-open
 {
     background-color: #232323 !important;
+}
+.yj-global-tag-selector.yj-global-topic-selector
+{
+    border: 1px solid #232323 !important;
 }
 #column-one.main-nav,
 .yj-nav-menu .yj-nav-menu--fixed-content,
@@ -331,6 +346,10 @@ a:visited,
 .qa-pending-group-button:hover
 {
     background-color: #12100D !important;
+}
+.ms-Button.yj-editor--button.ms-Button--icon.yj-rich-text-iconbutton:hover
+{
+    background-color: #717171 !important;
 }
 .yj-group-header-patterned-scrolling--wrapper.yj-clearfix,
 .yj-simple-lightbox--content,
@@ -432,6 +451,10 @@ a:visited,
 .app-store .featured-apps li.app-list-item
 {
     border-top: 1px solid #444 !important;
+}
+.yj-global-attach-list-item
+{
+    border-top: 1px solid #7c7c7c !important;
 }
 .yj-global-split-publisher .yj-publisher-lightbox--group,
 .yj-global-split-publisher .yj-publisher-lightbox--private
@@ -541,7 +564,7 @@ textarea,
 .yj-toolbar--rich-text-item .yj-editor--button,
 .yj-toolbar--rich-text-item .yj-editor--button:hover
 {
-    color: #8ba5cf;
+    color: #3b5682;
 }
 .yj-question-badge path
 {
@@ -646,7 +669,9 @@ textarea,
     border: 5px dashed #404040;
     color: #386cbb;
 }
-.yj-typing-indicator
+.yj-typing-indicator,
+.yj-attachment-viewer--conversation,
+.yj-attachment-viewer--conversation .yj-conversation-detail .yj-thread-starter
 {
     background-color: #222222;
 }
